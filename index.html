@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            border-radius: 0 0 10px 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #6e8efb;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        a {
+            color: #a777e3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background: #e0e7ff;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        @media (max-width: 600px) {
+            header {
+                padding: 30px 0;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>云水link</h1>
+            <p>业余开发者 | 设计师 | 学生</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 简介 -->
+        <section class="section">
+            <h2>👋 关于我</h2>
+            <p>Hi!好久不见!</p>
+        </section>
+
+        <!-- 技能 -->
+        <section class="section">
+            <h2>🛠️ 技能</h2>
+            <div class="skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">机器学习/大模型</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">绘画</span>
+            </div>
+        </section>
+
+        <!-- 项目 -->
+        <section class="section">
+            <h2>📂 项目</h2>
+            <ul>
+                <li>
+                    <strong><a href="#">暂无🤗</a></strong> - 等我开发完再来看看叭~
+                </li>
+            </ul>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>© 2025 云水link. 使用GitHub Pages托管</p>
+    </footer>
+</body>
+</html>
